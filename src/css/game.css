@@ -1,0 +1,51 @@
+#puzzle {
+    width: 600px;
+    height: 600px;
+    border: 1px solid;
+    position: relative;
+    left: 33%;
+    background: linear-gradient(to bottom, #e6cae4, #9faae2);
+  }
+  
+  .puzzle-piece {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button {
+    font-size: 26px;
+    padding: 20px 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    left: 33%;
+    bottom: 20%;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  #restart-button {
+    left: 53%;
+  }
+  
+  #ranking-button {
+    left: 44%;
+  }
+  

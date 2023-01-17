@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 20%;
+    margin: auto;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+    
+th {
+    background-color: #565d60;
+    color: white;
+}
+
+.currentPlayer {
+    background-color: rgb(100, 227, 100);
+}
+
+.otherPlayer{
+    background-color: #f2f2f2;
+  }
